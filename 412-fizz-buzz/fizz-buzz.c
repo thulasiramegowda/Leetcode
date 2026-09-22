@@ -9,7 +9,6 @@ char** fizzBuzz(int n, int* returnSize) {
 
     for (int i = 1; i <= n; i++) {
 
-        // Allocate space for the string at answer[i - 1]
         answer[i - 1] = malloc(20 * sizeof(char));
 
         if (i % 3 == 0 && i % 5 == 0) {
